@@ -3,7 +3,7 @@
 # Docker build fails
 
 ```
-➜ sqlite\*db*test git:(main) docker build -t sqlite_db_test .
+$ docker build -t sqlite_db_test .
 [+] Building 2.7s (16/28) docker:desktop-linux
 => [internal] load build definition from Dockerfile 0.0s
 => => transferring dockerfile: 2.77kB 0.0s
