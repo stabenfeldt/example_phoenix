@@ -3,6 +3,8 @@
 # Docker build fails
 
 ```
+$  mix phx.gen.release --docker
+
 $ docker build -t sqlite_db_test .
 [+] Building 2.7s (16/28) docker:desktop-linux
 => [internal] load build definition from Dockerfile 0.0s
